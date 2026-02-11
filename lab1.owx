@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2026/0/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2026/0/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2026/0/untitled-ontology-4/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Год_выпуска"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Жанр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Исполнитель"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Музыкальные_треки"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#КакойЖанр"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#All_My_Loving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beastie_Boys"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Big_Iron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bob_Dylan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gotye"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Litium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marty_Robbins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nirvana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_Hot_Chilli_Peppers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sabotage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Somebody_That_I_Used_To_Know"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Beatles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Under_The_Bridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Джаз"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Кантри"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Поп"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Рок"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Фолк"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Хип-хоп"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1960"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1964"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1987"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1991"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2011"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I&apos;ll_Follow_The_Sun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Times_They_Are_A-Changing&apos;"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Музыкальные_треки"/>
+        <NamedIndividual IRI="#All_My_Loving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Исполнитель"/>
+        <NamedIndividual IRI="#Beastie_Boys"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Музыкальные_треки"/>
+        <NamedIndividual IRI="#Big_Iron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Исполнитель"/>
+        <NamedIndividual IRI="#Bob_Dylan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Исполнитель"/>
+        <NamedIndividual IRI="#Gotye"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Музыкальные_треки"/>
+        <NamedIndividual IRI="#Litium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Исполнитель"/>
+        <NamedIndividual IRI="#Marty_Robbins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Исполнитель"/>
+        <NamedIndividual IRI="#Nirvana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Исполнитель"/>
+        <NamedIndividual IRI="#Red_Hot_Chilli_Peppers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Музыкальные_треки"/>
+        <NamedIndividual IRI="#Sabotage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Музыкальные_треки"/>
+        <NamedIndividual IRI="#Somebody_That_I_Used_To_Know"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Исполнитель"/>
+        <NamedIndividual IRI="#The_Beatles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Музыкальные_треки"/>
+        <NamedIndividual IRI="#Under_The_Bridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Жанр"/>
+        <NamedIndividual IRI="#Джаз"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Жанр"/>
+        <NamedIndividual IRI="#Кантри"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Жанр"/>
+        <NamedIndividual IRI="#Поп"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Жанр"/>
+        <NamedIndividual IRI="#Рок"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Жанр"/>
+        <NamedIndividual IRI="#Фолк"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Жанр"/>
+        <NamedIndividual IRI="#Хип-хоп"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Год_выпуска"/>
+        <NamedIndividual IRI="#1960"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Год_выпуска"/>
+        <NamedIndividual IRI="#1964"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Год_выпуска"/>
+        <NamedIndividual IRI="#1987"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Год_выпуска"/>
+        <NamedIndividual IRI="#1991"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Год_выпуска"/>
+        <NamedIndividual IRI="#2011"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Музыкальные_треки"/>
+        <NamedIndividual IRI="#I&apos;ll_Follow_The_Sun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Музыкальные_треки"/>
+        <NamedIndividual IRI="#The_Times_They_Are_A-Changing&apos;"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <NamedIndividual IRI="#All_My_Loving"/>
+        <NamedIndividual IRI="#1964"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#All_My_Loving"/>
+        <NamedIndividual IRI="#Поп"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#All_My_Loving"/>
+        <NamedIndividual IRI="#Рок"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <NamedIndividual IRI="#All_My_Loving"/>
+        <NamedIndividual IRI="#The_Beatles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <NamedIndividual IRI="#Big_Iron"/>
+        <NamedIndividual IRI="#1960"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#Big_Iron"/>
+        <NamedIndividual IRI="#Кантри"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <NamedIndividual IRI="#Big_Iron"/>
+        <NamedIndividual IRI="#Marty_Robbins"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <NamedIndividual IRI="#Litium"/>
+        <NamedIndividual IRI="#1991"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#Litium"/>
+        <NamedIndividual IRI="#Рок"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <NamedIndividual IRI="#Litium"/>
+        <NamedIndividual IRI="#Nirvana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <NamedIndividual IRI="#Sabotage"/>
+        <NamedIndividual IRI="#1987"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#Sabotage"/>
+        <NamedIndividual IRI="#Рок"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#Sabotage"/>
+        <NamedIndividual IRI="#Хип-хоп"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <NamedIndividual IRI="#Sabotage"/>
+        <NamedIndividual IRI="#Beastie_Boys"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <NamedIndividual IRI="#Somebody_That_I_Used_To_Know"/>
+        <NamedIndividual IRI="#2011"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#Somebody_That_I_Used_To_Know"/>
+        <NamedIndividual IRI="#Поп"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <NamedIndividual IRI="#Somebody_That_I_Used_To_Know"/>
+        <NamedIndividual IRI="#Gotye"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <NamedIndividual IRI="#Under_The_Bridge"/>
+        <NamedIndividual IRI="#1991"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#Under_The_Bridge"/>
+        <NamedIndividual IRI="#Рок"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <NamedIndividual IRI="#Under_The_Bridge"/>
+        <NamedIndividual IRI="#Red_Hot_Chilli_Peppers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <NamedIndividual IRI="#I&apos;ll_Follow_The_Sun"/>
+        <NamedIndividual IRI="#1964"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#I&apos;ll_Follow_The_Sun"/>
+        <NamedIndividual IRI="#Поп"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#I&apos;ll_Follow_The_Sun"/>
+        <NamedIndividual IRI="#Рок"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#I&apos;ll_Follow_The_Sun"/>
+        <NamedIndividual IRI="#Фолк"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <NamedIndividual IRI="#I&apos;ll_Follow_The_Sun"/>
+        <NamedIndividual IRI="#The_Beatles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <NamedIndividual IRI="#The_Times_They_Are_A-Changing&apos;"/>
+        <NamedIndividual IRI="#1964"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <NamedIndividual IRI="#The_Times_They_Are_A-Changing&apos;"/>
+        <NamedIndividual IRI="#Фолк"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <NamedIndividual IRI="#The_Times_They_Are_A-Changing&apos;"/>
+        <NamedIndividual IRI="#Bob_Dylan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#КакойГодВыпуска"/>
+            <Class IRI="#Музыкальные_треки"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#КакойГодВыпуска"/>
+            <Class IRI="#Музыкальные_треки"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#КтоИсполнитель"/>
+            <Class IRI="#Музыкальные_треки"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#КакойГодВыпуска"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#КакойГодВыпуска"/>
+            <Class IRI="#Год_выпуска"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#КакойЖанр"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#КакойЖанр"/>
+            <Class IRI="#Жанр"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#КтоИсполнитель"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#КтоИсполнитель"/>
+            <Class IRI="#Исполнитель"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
